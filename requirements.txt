@@ -1,0 +1,4 @@
+argon2-cffi==25.1.0
+streamlit==1.59.0
+supabase==2.31.0
+toml==0.10.2

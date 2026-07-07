@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets — MAI committare
+.streamlit/secrets.toml
+
+# Supabase local
+.supabase/
+
+# macOS
+.DS_Store
+
+# Tooling locale
+.claude/
+
+# Documentazione interna di sviluppo — NON pubblica (resta solo in locale)
+HANDOFF.md
+SECURITY_REVIEW.md
+AGENTS.md
+CLAUDE.md
