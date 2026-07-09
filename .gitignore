@@ -9,14 +9,34 @@ __pycache__/
 # Supabase local
 .supabase/
 
+# Database backups — contengono dati personali, MAI committare
+_db_backups/
+backups/
+db_backups/
+*.dump
+*.dump.bak-*
+*.backup
+*.sql.gz
+
 # macOS
 .DS_Store
 
 # Tooling locale
 .claude/
 
+# Script locali (percorsi personali hardcodati) — NON pubblici
+scripts/
+
 # Documentazione interna di sviluppo — NON pubblica (resta solo in locale)
 HANDOFF.md
 SECURITY_REVIEW.md
 AGENTS.md
 CLAUDE.md
+ROADMAP.md
+DECISIONS.md
+COMPLIANCE.md
+CHANGELOG.md
+specs/
+
+# Mockup / design (Claude Design) — local-only
+*.dc.html
