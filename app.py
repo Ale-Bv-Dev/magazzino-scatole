@@ -429,7 +429,7 @@ def vista_principale():
 
     st.title("📦 Magazzino Scatole")
     tab_elenco, tab_nuova, tab_gestione = st.tabs(
-        ["📋 Elenco e ricerca", "➕ Nuova scatola", "✏️ Modifica / Elimina"]
+        ["📋 Elenco", "➕ Nuova", "✏️ Gestisci"]
     )
 
     # ---- elenco e ricerca
